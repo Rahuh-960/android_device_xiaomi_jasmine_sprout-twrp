@@ -112,3 +112,22 @@ TW_INCLUDE_CRYPTO_FBE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 AB_OTA_UPDATER := true
 
+# SHRP Configuration
+SHRP_PATH := device/xiaomi/jasmine_sprout
+SHRP_MAINTAINER := XRed_CubeX
+SHRP_DEVICE_CODE := jasmine_sprout
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
+SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
+SHRP_FONP_3 := /sys/class/leds/led:torch_2/brightness
+SHRP_FONP_4 := /sys/class/leds/led:switch_0/brightness
+SHRP_FONP_5 := /sys/class/leds/led:switch_1/brightness
+SHRP_FLASH_MAX_BRIGHTNESS := 100
+SHRP_AB := true
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_OFFICIAL := true
+SHRP_EXPRESS := true
