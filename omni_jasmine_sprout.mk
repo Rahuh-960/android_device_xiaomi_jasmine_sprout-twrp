@@ -90,4 +90,4 @@ BUILD_FINGERPRINT := "xiaomi/jasmine/jasmine_sprout:10/QKQ1.190910.002/V11.0.5.0
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Manish4586"
+DEVICE_MAINTAINERS="Samyak Jain"
